@@ -24,5 +24,5 @@ plt.title('Search and Delete Occurrences')
 plt.legend()
 plt.grid(True, linestyle='--', alpha=0.6)
 
-# Mostrar la gráfica
+
 plt.show()
