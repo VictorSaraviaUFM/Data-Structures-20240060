@@ -15,7 +15,7 @@ dequeue_times = [result['dequeue_time'] for result in results]
 plt.figure(figsize=(10, 6))
 
 plt.plot(queue_sizes, search_times, marker='o', linestyle='-', color='b', label='Search')
-plt.plot(sizes, delete_times, marker='s', linestyle='--', color='r', label='Delete')
+plt.plot(queue_sizes, dequeue_times, marker='s', linestyle='--', color='r', label='Delete')
 
 
 plt.xlabel('Elements in millions')
