@@ -17,5 +17,5 @@ for queue_name, queue in queues.items():
     print(f"Poblando {queue_name}...")
 
     for i in range(queue.max):
-        queue.enqueue(f'Elemento_{i}')  # Poblar con elementos únicos
+        queue.enqueue(f'Elemento_{i}')  
     print(f"{queue_name} ha sido poblada.\n")
